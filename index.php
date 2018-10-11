@@ -8,7 +8,7 @@ $bees->add('\BeeGame\WorkerBee', 5);
 $bees->add('\BeeGame\DroneBee', 8);
 
 $beginGame = new \BeeGame\MainGame($bees);
-$resetUrl = __DIR__.'?gameStart=true';
+$resetUrl = './?gameStart=true';
 $output = '';
 $output .= '<a href="'.$resetUrl.'">Game begin</a>';
 
