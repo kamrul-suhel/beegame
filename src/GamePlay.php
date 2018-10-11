@@ -52,4 +52,18 @@ class GamePlay {
     {
         $this->log[] = $message;
     }
+
+    public function restart(){
+        $this->log[] = ['The game has been restarted.'];
+        $this->turns = 0;
+        $this->status = self::BEE_INIT;
+    }
+
+    public function getMessage(){
+        return end($this->log);
+    }
+
+    public function getStatus(){
+        return $this->status;
+    }
 }

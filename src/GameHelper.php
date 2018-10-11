@@ -23,4 +23,17 @@ class GameHelper
     public function getAllBees(){
         return $this->totalBees;
     }
+
+    public function burnTheAll(){
+        foreach($this->totalBees as $key => $bee){
+            $bee->terminate();
+        }
+    }
+
+    public function reset(){
+        $this->totalBees = [];
+        foreach($this->lastGoodState as $bees){
+            $this->add($bees[0], $bees[1]);
+        }
+    }
 }
