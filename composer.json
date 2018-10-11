@@ -1,0 +1,15 @@
+{
+    "name": "kamrulahmed/beegame",
+    "authors": [
+        {
+            "name": "Kamrul Ahmed",
+            "email": "kamrul_sscis@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BeeGame\\": "src"
+        }
+    },
+    "require": {}
+}
