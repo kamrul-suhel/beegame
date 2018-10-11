@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c01615cd-d1e2-4fea-8105-16ba622ae894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bee.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DroneBee.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DroneBee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainGame.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueenBee.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueenBee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkerBee.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkerBee.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="180">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -78,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainGame.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="375">
               <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
             </state>
           </provider>
@@ -147,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/QueenBee.php" />
         <option value="$PROJECT_DIR$/src/Bee.php" />
         <option value="$PROJECT_DIR$/src/GameHelper.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/src/MainGame.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -221,12 +215,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539243983326</updated>
-      <workItem from="1539243984468" duration="11840000" />
+      <workItem from="1539243984468" duration="11912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11840000" />
+    <option name="totallyTimeSpent" value="11912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="805" height="840" extended-state="0" />
@@ -330,17 +324,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/src/MainGame.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="375">
+          <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainGame.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
+        <state relative-caret-position="180">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@ $bees->add('\BeeGame\DroneBee', 8);
 $beginGame = new \BeeGame\MainGame($bees);
 $resetUrl = __DIR__.'?gameStart=true';
 $output = '';
-$output .= '<a href="'.$resetUrl.'">Game game begin</a>';
+$output .= '<a href="'.$resetUrl.'">Game begin</a>';
 
 $startGame = isset($_GET['gameStart']) ? (bool) $_GET['gameStart'] : false;
 if($startGame){
