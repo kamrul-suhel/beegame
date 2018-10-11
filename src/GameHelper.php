@@ -24,7 +24,7 @@ class GameHelper
         return $this->totalBees;
     }
 
-    public function burnTheAll(){
+    public function burnThemAll(){
         foreach($this->totalBees as $key => $bee){
             $bee->terminate();
         }

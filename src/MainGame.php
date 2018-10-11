@@ -23,7 +23,7 @@ class MainGame extends GamePlay
 
         $turn = [];
 
-        $turn[] = $bee->getName(). ' was attacked with '. $bee->getDamage().' and now '.($bee->getLife() > 0 ? 'has'. $bee->getLife(). ' health left': ' is dead');
+        $turn[] = $bee->getName(). ' was attacked with '. $bee->getDamage().' and now '.($bee->getLife() > 0 ? ' has '. $bee->getLife(). ' health left': ' is dead');
 
         if($bee->isDead() && $bee->getBurnThemAll()){
             $this->gameStart->burnThemAll();
@@ -43,7 +43,4 @@ class MainGame extends GamePlay
         parent::restart();
         $this->gameStart->reset();
     }
-
-
-
 }

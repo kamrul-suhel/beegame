@@ -9,4 +9,6 @@ class DroneBee extends Bee
     protected $health = 50;
 
     protected $damage = 12;
+
+    protected $BURN_THEM_ALL = false;
 }

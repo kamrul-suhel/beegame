@@ -7,4 +7,6 @@ class WorkerBee extends Bee {
     protected $damage = 10;
 
     public $name = 'Worker bee';
+
+    protected $BURN_THEM_ALL = false;
 }

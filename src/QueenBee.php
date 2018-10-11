@@ -9,4 +9,6 @@ class QueenBee extends Bee
     protected $damage = 8;
 
     protected $name = 'Queen bee';
+
+    protected $BURN_THEM_ALL = true;
 }
